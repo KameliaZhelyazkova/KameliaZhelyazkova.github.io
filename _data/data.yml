@@ -1,0 +1,176 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Kamelia Zhelyazkova
+    tagline: Software Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: kamelia.zhelyazkova@gmail.com
+    # phone: 012 345 6789
+    # website: blog.webjeda.com #do not add http://
+    linkedin: kamelia-zhelyazkova
+    github: KameliaZhelyazkova
+    gitlab:
+    bitbucket:
+    # twitter: '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Lithuanian
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Reinforcement Learning
+        link:
+
+      - item: Board Games
+        link:
+
+      - item: Hiking
+        link:
+
+      - item: Music Production
+        link:
+
+career-profile:
+    title: Brief Profile
+    summary: |
+      Programmed my first game at the age of 10. Been passionate about games and AI ever since.
+      Started competitive programming at high school in Lithuania and have won several medals in prestigious national competitions.
+      In 2014, I was a member of Lithuanian team in both [Baltic Olympiad in Informatics](http://www.boi2014.lmio.lt/) and [International Olympiad in Informatics](https://www.ioi2014.org/).
+      The hobby continued into my years at university, and I was a global finalist of [Bloomberg CodeCon 2016](https://codecon.bloomberg.com/). Since 2015, I have been freelancing/working remotely.
+education:
+    - degree: (MInf) Informatics
+      university: University of Edinburgh
+      time: 2017 - 2020 (changed from BEng)
+
+    - degree: (BEng) Software Engineering
+      university: University of Edinburgh
+      time: 2014 - 2017
+
+    - degree: High School Diploma
+      university: Kaunas University of Technology Gymnasium
+      time: 2010 - 2014
+
+experiences:
+    - role: Lead Software Engineer
+      time: 2015 - Present
+      company: Clouder, London (Remote)
+      details: |
+        Creating a vaping marketplace, 1-hour delivery in London and subscription [service](https://clouder.co.uk/) (built with [**MEAN**](https://www.ibm.com/cloud/learn/mean-stack-explained) stack).
+        I am solely responsible for the development, security and availability of the back-end of our platform. Further, I manage an outsourced team of front-end developers to implement
+        new projects according to business strategy and my written technical specification. Finally, I communicate with customers, providing tech support and managing system integration processes.
+        Technologies used:
+          - MEAN stack
+          - Redis
+          - Amazon Web Services (AWS)
+    - role: Freelance Software Engineer
+      time: 2015 - Present
+      company: Self-employed, Edinburgh
+      details: |
+        Undertaking various development projects (listed under **Projects** below) for clients and independently. Maintaining and updating complete projects.
+projects:
+    title: Projects
+    intro: >
+      The following list of projects includes paid self-employment work, as well as some noteworthy university or individual hobby projects (sorted from most to least recent):
+    assignments:
+      - title: Movie Search Engine
+        link: "http://167.71.139.222"
+        tagline: "(University Project) A search engine that enables searching for movies by keywords or quotes. Won the Best Project Award for the Text Technologies for Data Science course 2019-20.<br>*(React, Flask, Scrapy, MongoDB)*"
+
+      - title: Stock Market Prediction Using Deep Reinforcement Learning
+        link: "https://i.imgur.com/6scAt1j.png"
+        tagline: "(University Project) Built a deep reinforcement learning agent model that can trade stocks profitably. Nominated for the IBM Prize for Best Machine Learning Practical project 2019-20.<br>*(Python, Tensorflow)*"
+
+      - title: Workofo
+        link: "https://www.workofo.com/"
+        tagline: "Writing efficient algorithms for employee shift scheduling optimisation. Data modelling, architecture and design.<br>*(Java, Spring, Google Cloud)*"
+
+      - title: Startline
+        link: "https://www.startline.lt/"
+        tagline: "Designed a complete software solution for managing car tuning services for a client's company. The solution includes: an Android app with multi-level authentication, appointment scheduling system with job specifics, reporting/accounting tools, appointment reminders via SMS to clients, SMS marketing tools, holiday management. Additionally, I designed a [self-booking page](http://register.startline.lt/) (Lithuanian) to display real availability and allow clients to self-register for an appointment.<br>*(Java, Android, [**MERN**](https://www.educative.io/edpresso/what-is-mern-stack) stack for back-end and self-booking page)*"
+
+      - title: Asvela
+        link: "https://shop.asvela.com/"
+        tagline: "Web scraping and data modelling for car part specifications used for automated generation of product listing descriptions and car compatibility tables.<br>*(Java, Jaunt, SQL)*"
+
+      - title: Save the Bunnies
+        link: "save-the-bunnies"
+        tagline: "Infinite 2D Platformer Shooter game with progression system: new weapons, skills and wardrobe elements can be unlocked by saving bunnies.<br>*(Unity, C#)*"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+#
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Javascript & Node.js
+        level: 98%
+
+      - name: Java/C#
+        level: 98%
+
+      - name: MongoDB
+        level: 98%
+
+      - name: Python & Flask
+        level: 98%
+
+      - name: Angular
+        level: 95%
+
+      - name: SQL
+        level: 95%
+
+      - name: React.js
+        level: 90%
+
+      - name: C++
+        level: 90%
+
+      - name: .NET
+        level: 60%
+
+      - name: PHP
+        level: 60%
+
+      - name: React Native
+        level: 50%
+
+      - name: Flutter
+        level: 50%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

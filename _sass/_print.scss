@@ -1,0 +1,67 @@
+@media print
+   {
+    @page {
+        size: A4;
+    }
+    body {
+       font-size: 12pt;
+    }
+
+    a,
+  	a:visited {
+  		text-decoration: underline;
+  	}
+  	a[href]:after {
+  		content: none !important;
+  	}
+
+    img.avatar {
+        filter: grayscale(1);
+        -webkit-filter: greyscale(1);
+    }
+   .main-wrapper .time {
+       float: right;
+        color: black !important;
+        -webkit-print-color-adjust: exact;
+   }
+    .sidebar-wrapper {
+        position: static;
+        float: right;
+        width: 40%;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .remove-container.container-block {
+       display: none;
+    }
+
+    .job-title {
+      font-weight: 900 !important;
+    }
+    .job-title:before {
+      content: "• "
+    }
+
+    .company {
+      font-style: italic;
+    }
+
+    footer {
+       display: none;
+    }
+
+    .skills-section {
+      page-break-before: always;
+    }
+
+    .skillset .level-bar-inner {
+       background-color: black !important;
+       -webkit-print-color-adjust: exact;
+    }
+
+    .fa-inverse,
+    .fa-inverse:after,
+    .fa-inverse:before {
+      color: #ffffff !important;
+    }
+}
